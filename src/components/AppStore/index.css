@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.button-container {
+  position: relative;
+  display: inline-block;
+}
+.search-input {
+  padding: 10px 40px 10px 10px;
+  width: 300px;
+  background-color: transparent;
+}
+.button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.search-icon {
+  width: 30px; /* Adjust size as needed */
+  height: auto;
+}
+.tabs-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apps-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+}

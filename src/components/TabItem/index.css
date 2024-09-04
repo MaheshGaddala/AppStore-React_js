@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.tab-item-container {
+  list-style-type: none;
+}
+.item-button {
+  background-color: transparent;
+  border: 0px;
+  font-size: 25px;
+}
+.active-tab {
+  border-bottom: 2px solid #2563eb;
+}
